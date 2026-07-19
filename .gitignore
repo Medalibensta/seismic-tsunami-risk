@@ -1,0 +1,16 @@
+# Data is committed so the repo is self-contained (CSVs are small, <6 MB).
+# It stays fully reproducible via `python src/data_download.py`.
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

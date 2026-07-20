@@ -153,13 +153,3 @@ jupyter notebook notebooks/01_seismic_analysis.ipynb
 ├── README.md
 └── requirements.txt
 ```
-
----
-
-### Résumé CV (FR)
-
-> **Analyse sismique & alerte tsunami** — Pipeline de bout en bout sur le catalogue
-> USGS (28 000 séismes, 1965-2024) : ingestion API, analyse temporelle Prophet,
-> classification du risque de tsunami sur données déséquilibrées (XGBoost, ROC-AUC
-> 0,95, rappel calibré à 90 % pour l'alerte précoce) et régression de la magnitude
-> (Gradient Boosting). Cartographie interactive Plotly des hotspots de subduction.
